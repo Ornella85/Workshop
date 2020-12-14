@@ -1,0 +1,116 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-color: brown;*/
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 800px;
+    border: 1px solid #cccccc;
+    margin: auto;
+}
+.banner{
+    background-color: rgba(192, 192, 240, 0.466);
+    padding: 2rem 2.5rem;
+}
+.banner img{
+    width: 150px;
+    vertical-align: middle;
+}
+
+.banner h1{
+    display: inline-block;
+    font-size: 1rem;
+    padding: 2rem 1rem 1rem 12rem; 
+}
+
+nav, footer{
+    background-color: rgb(196, 186, 240);
+    text-align: center;
+    padding: 1rem 0;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+}
+
+nav:hover, footer:hover{
+    background-color: rgb(243, 196, 243);
+}
+
+nav a{
+    color:black;
+    text-align: none;
+    font-size: 1.2rem; 
+    padding: 1rem 8rem;
+}
+nav a:hover{
+    color: tomato;
+    background-color: yellow;
+}
+
+.content{
+    padding: 0.2rem 1rem;
+}
+
+main, aside{
+    display: inline-block;
+    padding: 0 1rem;
+    margin-top: 2rem;
+    border: 1px solid #cccccc;
+    box-shadow: 0 0 5px #cccccc;
+
+}
+main{
+    width: 50%;
+    margin-right: 4%;
+}
+h2, h3{
+    color: rgb(124, 101, 207);
+}
+h2{
+    font-size: 1.4rem;
+}
+h3{
+    font-size: 1.1rem;
+    font-weight: 501;
+}
+
+p, li{
+    color: black;
+}
+
+ul, li{
+    list-style-type: square;
+}
+aside{
+    width: 36%;
+    vertical-align: top;
+   
+}
+aside img{
+    width: 270px;
+    
+}
+footer p, footer #reseau{
+    display: inline-block;
+    color: black;
+}
+footer p{
+    padding-right: 15rem;
+}
+footer #reseau{
+    padding-left: 1rem;
+    font-size: 3rem;
+}
+#reseau{
+    color: white;
+}
+
+section iframe{
+    margin: 60px 150px 30px;
+    width: 400px;
+    height: 250px;
+    padding-left: 8%;
+}

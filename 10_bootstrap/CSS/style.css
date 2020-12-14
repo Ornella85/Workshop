@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600&family=Texturina:ital,wght@0,700;0,900;1,100&display=swap');
+
+
+
+/* HEADER ET NAV */
+
+header img{
+    width: 40px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-family: 'Texturina', serif;
+    transform: translate(-10%);
+}
+
+.navbar-nav{
+    transform: translate(70%);
+}
+
+.btn-secondaire{
+    color: rgb(211, 141, 73);
+    border: 1px solid rgb(211, 141, 73);
+}
+
+/* JUMBOTRON */
+
+.jumbotron{
+    height: 711px;
+    background-image: url("../img/banner-buisnessman.jpg");
+}
+
+.display-3, .jumbotron p{
+    color: white;
+    text-align: center;
+}
+
+.display-3{
+    margin-top: 260px;
+    font-size: 45px;
+}
+
+.jumbotron p{
+    text-transform: lowercase;
+}
+
+/* MAIN */
+/* section fake employee */
+header .fas{
+    font-size: 60px;
+    position: relative;
+    left: 47%;
+    margin: 30px;
+    margin-top: -10px;
+}
+
+.projects{
+    background-color: #353A40;
+    color: rgb(211, 141, 73);
+    height: 70px;
+    font-size: 22px;
+    font-family: 'Texturina', serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.fake-employee{
+    display:flex;
+    justify-content: space-around;
+}
+.card{
+    height: 330px;
+    margin: 30px;
+}
+
+.card:first-child{
+    background-image: url("../img/architecture-1.jpg");
+    background-size: contain;
+}
+.card:nth-last-of-type(2){
+    background-image: url("../img/architecture-2.jpg");
+    background-size: contain;
+}
+.card:last-of-type{
+    background-image: url("../img/architecture-3.jpg");
+    background-size: contain;
+}
+.card p{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+/* section compagny */
+
+.compagny-employee{
+    background-color: #353A40;
+    color: rgb(211, 141, 73);
+    height: 70px;
+    font-size: 22px;
+    font-family: 'Texturina', serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 30px;
+}
+
+.table img{
+    width: 120px;
+}
+

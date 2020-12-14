@@ -1,0 +1,28 @@
+body{
+    border: 1px solid gray;
+    width: 653px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Dancing Script', cursive;
+}
+
+p{
+    text-align: center;
+    line-height: 90px;
+    color: rgb(52, 153, 213);
+    font-size: 40px;
+    font-weight: bold;
+    
+
+}
+tfoot{
+    text-align: center;
+    line-height: 100px;
+   
+}
+
+a{
+    color: rgb(52, 153, 213);
+}
+
+

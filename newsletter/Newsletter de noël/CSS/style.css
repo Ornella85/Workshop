@@ -1,0 +1,21 @@
+body{
+    border: 1px solid gray;
+    width: 650px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+p{
+    text-align: center;
+    line-height: 90px;
+    color: gray;
+}
+tfoot{
+    text-align: center;
+    line-height: 100px;
+   
+}
+
+
+
+

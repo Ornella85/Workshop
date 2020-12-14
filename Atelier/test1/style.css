@@ -1,0 +1,48 @@
+*{
+    font-family: proxima;
+}
+
+body{
+    background-image:url('https://pixnio.com/free-images/2017/08/26/2017-08-26-09-07-55.jpg');
+    background-size: cover;/*ou alors contain */ 
+    background-repeat:no-repeat;
+    height:100%;
+    overflow: hidden;
+}
+
+.container{
+    width:700px;
+    margin: 350px auto 0 auto;
+    border-radius: 5px;
+    background-color: white; 
+    box-shadow: 0 0 3px black;
+    padding: 1rem; 
+}
+
+.container h1{
+    font-size: 3rem;
+    margin: 0;
+    padding: 0 1rem;
+    color: red; 
+}
+.container h2{
+    font-size:2rem;
+    margin: 0;
+    padding: 0 1rem;
+    color: blue;
+}
+.container p{
+font-size: 1rem;
+margin: 1;
+padding: 0 1rem; 
+color: rgb(92, 0, 128); 
+}
+
+span#noir{
+    color: black;
+    font-weight:bold;
+}
+span#gris{
+    color: rgb(255, 207, 192);
+    font-weight: semi bold;
+}

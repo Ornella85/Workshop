@@ -1,0 +1,59 @@
+
+table{
+    height: 600px ;
+    width: 50% ;  
+    margin: 0 auto; 
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    line-height: 50px;
+}
+
+thead{
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    line-height: 50px;
+}
+
+tfoot{
+    height: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+
+tbody{
+    border: 1px solid rgb(0, 0, 0);
+}
+
+tr, td{
+    border: 1px solid rgb(0, 0, 0); 
+}
+
+th{
+    height: 30px;
+}
+
+.c1{
+    height: 30px;
+}
+
+.c2{
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

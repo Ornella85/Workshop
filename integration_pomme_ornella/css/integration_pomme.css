@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(221, 238, 170);
+    height: 1100px ;
+    width: 40% ; 
+    background-color: white;
+    margin: 0 auto; 
+    border: 1px solid rgb(170, 187, 68);
+}
+
+table{
+    
+    text-align: center;
+    line-height: 50px;
+}
+
+h3, p{
+    text-align: left;
+    line-height: 200%;
+}
+
+h3{
+    color:rgb(170, 187, 68) ;
+}
+
+.c1{
+    background-color: rgb(146, 217, 53);
+    color: white;
+    font-size: 15px;
+    height: 20px;
+    box-shadow: 5px 2px 2px gray;
+    
+}
+
+tfoot a{
+    float: right;
+    height: 10px;
+    text-align: right;
+    line-height: 100px;
+    color: rgb(170, 187, 68);
+}
+
+
+
+li{
+    list-style-type: none ;
+    background-image: url(../img/little_apple.gif); 
+    background-repeat: no-repeat; 
+    background-position: left ; 
+    padding-left: 20px; 
+}
+
+.c3{ /* à la correction */ 
+    float: right;
+    padding: -100px;
+    margin: 30px;
+}
+
+/* la border peut être utilisé que en haut ou en bas ou à droite ou à gauche.
+aliena => text-indent: : indent */
+

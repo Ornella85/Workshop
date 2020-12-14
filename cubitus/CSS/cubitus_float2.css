@@ -1,0 +1,63 @@
+.vert, .bleu, .coral, .rouge{
+    height: 7em;
+    width: 7em;
+    border: 0.15em solid black;
+    margin: 0.2em;
+    /*display: inline-block;*/
+    float: left;
+    border-radius: 20%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.vert{
+     background-color: #1d5220; /* color green dans la correction  */
+     border-top-left-radius: 10%;
+     border-top-right-radius: 20%;
+     border-bottom-left-radius: 40%;
+     border-bottom-right-radius: 30%;
+}
+.bleu{
+     background-color: #23e4f1; /* color cyan dans la correction */
+     border-top-left-radius: 40%;
+     border-top-right-radius: 0;
+     border-bottom-left-radius: 0;
+     border-bottom-right-radius: 40%;
+}
+.coral{
+    background-color: rgb(241, 130, 90); /* color darksalmon dans la correction */
+    border-top-left-radius: 20%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+}
+.rouge{
+    background-color: red;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+} /* utiliser section div:nth-child(18){ background-color: red;} */
+
+
+.anis{
+    background-color: rgb(141, 185, 141);
+    height: 7em;
+    width: 7em;
+    margin: 0.2em;
+    float: left;
+    border-radius: 50%;
+    border: 0.15em solid black;
+    text-align: center;
+}
+
+.white{
+    height: 7em;
+    width: 7.5em;
+    float: left;
+}
+.white:empty {
+   background-color: white;
+}
+
+.clear{
+    clear: both; /* both: des deux côtés droite e t gauche*/
+}

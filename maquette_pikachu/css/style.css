@@ -1,0 +1,162 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+body{
+    margin: 0 auto;
+    width: 50%;
+    border: 1px solid gray;
+}
+
+#contenair{
+    width: 800px; 
+    margin: 0 auto;
+}
+
+/* ************ Hearder  ************ */
+header{
+    margin: 0 auto;
+    height: 375px;
+    background-color: bisque;
+}
+
+.logo{
+    width: 450px;
+    margin-top: 15px;
+    background-color: bisque;
+}
+
+h1{
+    display: inline-block;
+    float: right;
+    color: rgb(48, 48, 78);
+    margin: 150px;
+    padding-top: 30px;
+    background-color: bisque;
+}
+
+h1 a{
+    text-decoration: none;
+    background-color: bisque;
+}
+   
+/* ************ Nav  ************ */
+
+nav{
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin: 110px;
+    line-height: 3;
+}
+
+nav a:hover{
+    color: rgb(247, 213, 62);
+    transition: 1s;
+}
+
+i{
+    background-color: blue;
+}
+
+/* ************ Main  ************************ ASIDE ************ */
+
+main, aside{
+    display: inline-block;
+    padding: 0 1rem;
+    margin-top: 2rem;
+    border: 1px solid #cccccc;
+    box-shadow: 0 0 5px #cccccc;
+}
+main{
+    width: 50%;
+    margin-right: 3%;
+    margin-left: 2%;
+}
+
+h2, h3{
+    color: orangered;
+}
+h2{
+    font-size: 1.4rem;
+}
+h3{
+    font-size: 1.1rem;
+    font-weight: 501;
+}
+
+aside{
+    width: 36%;
+    vertical-align: top;
+  
+}
+aside p{
+    font-style: italic;
+}
+
+ul li{
+    list-style-type: square;
+}
+
+.logo2{
+    width: 160px;
+}
+
+
+
+/* ************ I FRAME ************ */
+
+.youtube{
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 30px;
+    margin-top: 2rem;
+    border: 1px solid #cccccc;
+    box-shadow: 0 0 5px #cccccc;
+}
+.youtube p{
+    color: orange;
+    margin: 30px;
+}
+
+iframe{
+    margin: 0px 110px 10px;
+    width: 500px;
+    height: 350px;
+    padding-left: 4%;
+}
+
+footer{
+    background-color: blue;
+    height: 80px;
+}
+small{
+   display: inline-block;
+   margin: 3em;
+   background-color: blue;
+   color: white;
+}
+
+.paiment{
+    background-color: blue;
+    display: inline-block;
+    float: right;
+    margin: 30px;
+    padding-right: 50px;
+}
+.paiment i{
+    color: white;
+    padding: 3px;
+}
+
+.clear{
+    clear: both;
+}

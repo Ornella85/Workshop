@@ -1,0 +1,81 @@
+body{
+    background-color: white;
+}
+
+#conteneur{
+    width: 80%;
+    margin: 0 auto;
+    background-color: skyblue;
+}
+
+header{
+    height: 70px;
+    background-color: rgb(151, 99, 56);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 6px;
+}
+
+nav{
+    height: 30px;
+    background-color: rgb(83, 70, 60);
+    color: white;
+    text-align:center;
+    line-height: 2px;
+    font-size: 15px;
+    padding-top: 6px;
+}
+
+section{
+    background-color: white;
+    height: 459px;
+    margin: 12px;
+    width: 98%;
+    
+}
+.section1, .section2, .section3, .section4{
+    width: 50%;
+    height: 230px;
+    float: left;
+}
+
+
+.c1, .c2, .c3, .c4{
+    height:105px;
+    width:48%;
+    margin: 0.2em;
+    font-size: 20px;
+    
+    color: white;
+    text-align: center;
+    line-height: 100px;
+
+    float: left;
+}
+
+.c1{
+    background-color: salmon;
+}
+.c2{
+    background-color: rgb(46, 100, 77);
+}
+.c3{
+    background-color: rgb(9, 12, 39);
+}
+.c4{
+    background-color: rgb(119, 67, 62);
+}
+
+footer{
+    height: 80px;
+    background-color: rgb(77, 73, 74);
+    color: white; 
+    text-align:center;
+    line-height: 70px;
+}
+
+.clear{
+    clear: both;
+}
+

@@ -1,0 +1,179 @@
+/* ************* ZONE DEDIEE AU MOBILE FIRST c'est à dire le code qui permet de rendre visible le site sur tout type de support ************* */
+
+/* ************* Header ************* */
+
+header{
+    margin: 0.1rem;
+    padding: 0.1rem;
+    height: 60px;
+    background: linear-gradient(rgb(45, 253, 149), rgb(34,193,195));
+}
+
+.logo{
+    width: 5%;
+    height: 70px;
+    float: left;
+}
+h1{
+    display: block;
+    float: left;
+    color: white;
+    font-size: 23px;
+}
+ul{
+    display: inline;
+    float: right;
+    padding: 0;
+    margin: -12px;
+}
+ul li{
+   display: inline;
+    list-style: none;
+    margin: auto 2rem;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    line-height: 90px;
+}
+
+.textdefile{
+    color: white;
+    background: rgb(34,193,195);
+}
+
+marquee{
+    padding: 5px;
+    text-shadow: 1px 1px 3px #000000;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-size: 1rem;
+}
+
+/* ************* SECTIONS ET DIV ************* */
+
+section{
+    width: 75%;
+    margin: 2em auto;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 10px 23px 0px rgb(34,193,195);
+    -moz-box-shadow: 10px 10px 23px 0px rgb(34,193,195);
+    box-shadow: 3px 3px 3px 0px rgb(34,193,195);
+}
+
+section:first-of-type{
+    background: linear-gradient(rgb(191,129,148) , rgb(86,166,241));
+}
+
+section:nth-of-type(2){
+    background: linear-gradient(rgb(97,227,194) , rgb(70,134,195));
+}
+
+section:last-of-type{
+    background: linear-gradient(rgb(226,132,23) , rgb(92,144,181));
+}
+
+div{
+    width: 50%;
+    text-align: center;
+    margin: 2em;
+}
+
+.text{
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+section:first-of-type .text{
+    text-align: left;
+}
+
+section:last-of-type .text{
+    text-align: right;
+}
+
+section.img{
+    margin: auto;
+}
+
+section img{
+    overflow: hidden;
+    border-radius: 180px;
+    height: 180px;
+    width: 180px;
+}
+
+h2{
+    font-size: 20px;
+    color: white;
+}
+
+p{
+    font-size: 10px;
+}
+
+/* ************* FOOTER ************* */
+
+footer{
+    margin: 0.1rem;
+    padding: 0.1rem;
+    height: 60px;
+    background: linear-gradient(rgb(34,193,195),rgb(45, 253, 149));
+}
+small{
+    display: inline;
+    float: left;
+    color: white;
+    line-height: 50px;
+    padding: 1vh;
+}
+
+div .paiment{
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    line-height: 50px;
+    padding: 1vh;
+    right: -300px;
+}
+
+div .paiment i{
+    padding: 0 0.4em;
+    color: white;
+}
+.clear{
+    clear: both;
+}
+
+
+
+
+/* **************************** RESPONSIVE ********************************** */
+
+@media screen and (max-width: 640px){
+    .mobilefirst{
+        width: 530px;
+        background-color: rgb(206, 193, 47);
+        margin: 0;
+        padding: 0;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 480px){ /*sert à utiliser le media Querie, on utilise le @ pour écrire une règle css. On parle de la largeur de l'écran */
+    .mobilefirst{
+        background-color: rgb(206, 193, 47);
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+

@@ -1,0 +1,72 @@
+body{
+    width: 50%;
+    margin: auto;
+}
+
+table{
+    border: 1px solid white;
+    border-collapse: collapse; 
+    margin: 50px; 
+    width: 60%;
+}
+
+tbody{
+    border: 1px solidwhite;
+}
+
+
+td{
+    background-color: white;
+    border: 0px solid white;
+    padding: 9px; 
+    height: 10px;
+}
+
+.noir{
+    background-color: black;
+}
+.marronfonce{
+    background-color: rgb(49, 37, 25);
+}
+.marronclair{
+    background-color: rgb(66, 50, 35);
+}
+.peau{
+    background-color: rgb(253, 170, 126);
+}
+.peaufonce{
+    background-color: rgb(255, 154, 100);
+}
+.vertolive{
+    background-color: rgba(50, 73, 29);
+}
+.vertsapin{
+    background-color: rgba(66, 89, 43);
+}
+.vertclair{
+    background-color: rgba(104,150,52);
+}
+.creme{
+    background-color: rgb(247, 225, 217);
+}
+.cappucino{
+    background-color:rgb(138,53,12);
+}
+.cafe{
+    background-color: rgb(115,46,13);
+}
+.jaune{
+    background-color: rgb(201, 170, 36);
+}
+.vertfonce{
+    background-color: rgb(40, 56, 29);
+}
+.chataigne{
+    background-color: rgba(148,95,53);
+}
+.marronclaire{
+    background-color: rgba(116,69,39);
+}
+.marronclaire2{
+    background-color: rgba(130,84,48);
+}
