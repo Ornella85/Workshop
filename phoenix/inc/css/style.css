@@ -1,0 +1,101 @@
+/* TAILLE LOGO */
+nav a img{
+    width: 18%;
+    position: relative;
+    left: 330px;
+}
+
+nav{
+    margin-bottom: 30px;
+}
+
+.bg-light{
+   background: #75c9c8 !important;
+}
+/* DIMENSION DU CAROUSSEL */
+
+.carousel-item img{
+    width: 70%;
+    height: 350px;
+    position: relative;
+    left: 350px;
+}
+
+/* BAS FOOTER DE TOUTES LES PAGES*/
+
+footer{
+    background: #75c9c8;
+    height: 70px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: grey;
+    float: left;
+    margin: 15px;
+    line-height: 35px;
+    position: relative;
+    left: 550px;
+    font-size: 20px;
+}
+
+footer a:hover{
+    color: white;
+}
+
+/* CARD BOOTSTRAP */
+.cardbootstrap{
+    display: flex;
+    justify-content: center;
+
+}
+
+.card{
+    padding: 30px;
+    margin: 25px;
+    box-sizing: content-box;
+}
+
+/* CARD BOOTSTRAP IMAGE */
+
+.card-img-top{
+    width: 121%;
+    height: 100px;
+    position: relative;
+    top: -30px;
+    right: 30px;
+}
+
+/* CARD BOOTSTRAP BOUTON */
+
+.btn{
+    background: white;
+    border: 1px solid #75c9c8;
+    color: #75c9c8;
+}
+
+.btn:hover{
+    background: #75c9c8;
+}
+
+/* PAGE RESERVATION*/
+.card-textboucaniers{
+ background:#75c9c8 ;
+ width: 349px;
+ height: 50px;
+ position: relative;
+ top: 62px;
+ right: 46px;
+ line-height: 10px;
+ padding: 20px;
+}
+
+.cardbootstrap1{
+    position: relative;
+    left: 326px;
+
+}
